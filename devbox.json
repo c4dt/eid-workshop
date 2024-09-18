@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
+  "packages": [
+    "bun@latest",
+    "python311Packages.pip@latest",
+    "nodejs@latest",
+    "vim@latest",
+    "git@latest",
+    "openssh@latest"
+  ],
+  "shell": {
+    "init_hook": [
+      ". $VENV_DIR/bin/activate",
+      "echo Ensuring npm and python packages are installed",
+      "npm ci --silent",
+      "pip install -r requirements.txt -q"
+    ],
+    "scripts": {
+      "jupyter": [
+        "jupyter-lab"
+      ]
+    }
+  },
+  "env": {
+    "PATH": "$PATH:$PWD/node_modules/.bin"
+  }
+}
