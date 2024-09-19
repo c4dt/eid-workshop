@@ -1,15 +1,27 @@
 # eID Hands-on workshop
 
-This is the first set of Jupyter notebooks for the eID hands-on workshop
-on the 29th of October.
+> A set of Jupyter notebooks for the E-ID hands-on workshop  
+> happening on **the 29th of October**.
 
-## Installation
+> Note that the notebooks will use **Typescript** for all excercises.
 
-Please use [Devbox](https://www.jetify.com/devbox/docs/quickstart/) to run
-jupyter-lab:
+This project showcases usage of E-ID through some different technologies. 
+It goes through clarifying examples of some of the most important concepts in E-ID today including 
+
+- Selective Disclosure
+- Zero-Knowledge Proofs
+- Unlinkability
+
+The excercises focse on one of the most prominent cryptographic schemes in the E-ID space today **BBS+**.  
+Learn more about BBS+ signature scheme [here](https://identity.foundation/bbs-signature/draft-irtf-cfrg-bbs-signatures.html).
+
+# Installation
+
+We support installation using [Devbox](https://www.jetify.com/devbox/docs/quickstart/) which facilitates environment management.  
+Just run the following command to install all dependencies:
 
 ```bash
-devbox run jupyter
+$ devbox run jupyter
 ```
 
 # Exercises
