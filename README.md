@@ -16,7 +16,29 @@ The excercises focse on one of the most prominent cryptographic schemes in the E
 Learn more about BBS+ signature scheme [here](https://identity.foundation/bbs-signature/draft-irtf-cfrg-bbs-signatures.html).
 
 # Installation
+This project depends on [Python](https://www.python.org/), and [Node.js](https://nodejs.org/en).
 
+To install the library dependencies, we use the following:
+```shell
+// Install python dependencies
+>>> pip install -r requirements.txt
+
+// Install the npm dependencies
+>>> npm install
+
+// Install Typescript Kernel for jupyter notebook
+>>> tslab install
+```
+
+Now, to run the jupyter notebooks, we simply run:
+
+```bash
+>>> jupyter lab
+```
+
+
+
+### Alternatively, using Devbox
 We support installation using [Devbox](https://www.jetify.com/devbox/docs/quickstart/) which facilitates environment management.  
 Just run the following command to install all dependencies:
 
