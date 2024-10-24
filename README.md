@@ -1,24 +1,25 @@
-# eID Hands-on workshop
+# E-ID Hands-on workshop
 
 > A set of Jupyter notebooks for the E-ID hands-on workshop  
 > happening on **the 29th of October**.
 
-> Note that the notebooks will use **Typescript** for all excercises.
+> All notebooks use **Typescript** except the last one that uses Python for plotting.
 
-This project showcases usage of E-ID through some different technologies. 
-It goes through clarifying examples of some of the most important concepts in E-ID today including 
+This project showcases usage of E-ID through different technologies. 
+It goes through clarifying examples of some of the most important concepts in E-ID today including:
 
 - Selective Disclosure
 - Zero-Knowledge Proofs
 - Unlinkability
+- Anonymous Credentials
 
-The excercises focse on one of the most prominent cryptographic schemes in the E-ID space today **BBS+**.  
+The excercises focus on one of the most prominent cryptographic schemes in the E-ID space today **BBS+**.  
 Learn more about BBS+ signature scheme [here](https://identity.foundation/bbs-signature/draft-irtf-cfrg-bbs-signatures.html).
 
 # Installation
 This project depends on [Python](https://www.python.org/), and [Node.js](https://nodejs.org/en).
 
-To install the library dependencies, we use the following:
+To install the library dependencies, execute the following commands:
 ```shell
 // Install python dependencies
 >>> pip install -r requirements.txt
