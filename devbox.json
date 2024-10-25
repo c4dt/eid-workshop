@@ -9,7 +9,8 @@
     "openssh@latest",
     "python311@latest",
     "ps@latest",
-    "vscode@latest"
+    "vscode@latest",
+    "less@latest"
   ],
   "shell": {
     "init_hook": [
@@ -24,6 +25,9 @@
       ],
       "code": [
         "Code --user-data-dir .vscode ."
+      ],
+      "clean": [
+        "jupyter nbconvert --clear-output --inplace *.ipynb"
       ]
     }
   },
