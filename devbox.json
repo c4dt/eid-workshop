@@ -6,7 +6,10 @@
     "nodejs@latest",
     "vim@latest",
     "git@latest",
-    "openssh@latest"
+    "openssh@latest",
+    "python311@latest",
+    "ps@latest",
+    "vscode@latest"
   ],
   "shell": {
     "init_hook": [
@@ -17,7 +20,10 @@
     ],
     "scripts": {
       "jupyter": [
-        "jupyter-lab"
+        "jupyter-lab -y"
+      ],
+      "code": [
+        "Code --user-data-dir .vscode ."
       ]
     }
   },

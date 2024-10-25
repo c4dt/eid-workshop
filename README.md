@@ -18,23 +18,28 @@ Learn more about BBS+ signature scheme [here](https://identity.foundation/bbs-si
 
 # Installation
 This project depends on [Python](https://www.python.org/), and [Node.js](https://nodejs.org/en).
+It has been tested with Python 3.11 and node 18 and 22
 
-To install the library dependencies, execute the following commands:
-```shell
-// Install python dependencies
->>> pip install -r requirements.txt
-
-// Install the npm dependencies
->>> npm install
-
-// Install Typescript Kernel for jupyter notebook
->>> tslab install
-```
-
-Now, to run the jupyter notebooks, we simply run:
+To install the library dependencies and start jupyter-lab, execute the following commands.
+If you're using `zsh` on Mac, you can ignore the errors from the `# comments`.
 
 ```bash
->>> jupyter lab
+# Create virtual environment and activate it.
+# If this returns an error, be sure that `python --version` is 3.11.
+python -m venv .venv
+. .venv/bin/activate
+
+# Install python dependencies
+pip install -r requirements.txt
+
+# Install the npm dependencies
+npm install
+
+# Install Typescript Kernel for jupyter notebook
+npx tslab install
+
+# Run jupyter-lab
+PATH=$PATH:node_modules/.bin jupyter-lab
 ```
 
 
@@ -49,7 +54,14 @@ $ devbox run jupyter
 
 # Exercises
 
-The following exercises are (will be) available:
+There are 4 exercises in this repository. The last exercise is split in two parts.
+
+1. Signing simply with RSA
+2. Unlinkable proofs using BBS+
+3. Range proofs with ZKPs
+4.
+   a) ZKP Measurements
+   b)Plots
 
 - Selective disclosure and unlinkability
   - RSA/ECDSA: NO SD, NO unlink

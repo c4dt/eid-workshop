@@ -234,6 +234,91 @@
         }
       }
     },
+    "ps@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#ps",
+      "source": "devbox-search",
+      "version": "3.3.17",
+      "systems": {
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/dmriinzz8y2f93sy69as8d7yrjx022wa-ps-procps-3.3.17",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/dmriinzz8y2f93sy69as8d7yrjx022wa-ps-procps-3.3.17"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/p1324fmfcdwg2d7wir5crgifmwm05hw0-ps-procps-3.3.17",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/p1324fmfcdwg2d7wir5crgifmwm05hw0-ps-procps-3.3.17"
+        }
+      }
+    },
+    "python311@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "plugin_version": "0.0.4",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#python311",
+      "source": "devbox-search",
+      "version": "3.11.10",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/nixf1pwf0irygcdk81xh4lz7zfa2k06y-python3-3.11.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/nixf1pwf0irygcdk81xh4lz7zfa2k06y-python3-3.11.10"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k5457x40win21kxxqdff2771hrpbiwfh-python3-3.11.10",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/b5jmgp4kirkb1ndm13l5icval34hl75d-python3-3.11.10-debug"
+            }
+          ],
+          "store_path": "/nix/store/k5457x40win21kxxqdff2771hrpbiwfh-python3-3.11.10"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/fpxwlwmhwha4krcipji4f4cbq30v75jl-python3-3.11.10",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/fpxwlwmhwha4krcipji4f4cbq30v75jl-python3-3.11.10"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0bygl9k94j0xkxq7cmxnpqdqf8va5k7j-python3-3.11.10",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/b1qysg4jpcl4vhqpa32hfvgny2zf1p88-python3-3.11.10-debug"
+            }
+          ],
+          "store_path": "/nix/store/0bygl9k94j0xkxq7cmxnpqdqf8va5k7j-python3-3.11.10"
+        }
+      }
+    },
     "python311Packages.pip@latest": {
       "last_modified": "2024-09-10T15:01:03Z",
       "plugin_version": "0.0.2",
@@ -384,6 +469,54 @@
             }
           ],
           "store_path": "/nix/store/fymb2prdsmc9268m3nr061zyxxqi8wkv-vim-9.1.0707"
+        }
+      }
+    },
+    "vscode@latest": {
+      "last_modified": "2024-10-13T23:44:06Z",
+      "resolved": "github:NixOS/nixpkgs/d4f247e89f6e10120f911e2e2d2254a050d0f732#vscode",
+      "source": "devbox-search",
+      "version": "1.94.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mdlr8182am37p84y5nf57wgrn18wgqja-vscode-1.94.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mdlr8182am37p84y5nf57wgrn18wgqja-vscode-1.94.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6zzgxf9rczqyzpdyikx297vi3vh52msc-vscode-1.94.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6zzgxf9rczqyzpdyikx297vi3vh52msc-vscode-1.94.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f4l15i10y91557rn84x1xx24dmlxa6lf-vscode-1.94.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f4l15i10y91557rn84x1xx24dmlxa6lf-vscode-1.94.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/m5db887cmx6nk99gm5q8hm9dhg7dm0gw-vscode-1.94.2"
         }
       }
     }
