@@ -42,36 +42,37 @@ npx tslab install
 PATH=$PATH:node_modules/.bin jupyter-lab
 ```
 
-
-
-### Alternatively, using Devbox
+### Alternatively, use Devbox
 We support installation using [Devbox](https://www.jetify.com/devbox/docs/quickstart/) which facilitates environment management.  
-Just run the following command to install all dependencies:
+Once devbox is install, you can run the following command to launch jupyter-lab:
 
 ```bash
-$ devbox run jupyter
+devbox run jupyter
 ```
 
 # Exercises
 
-There are 4 exercises in this repository. The last exercise is split in two parts.
+The following exercises are available:
 
-1. Signing simply with RSA
-2. Unlinkable proofs using BBS+
-3. Range proofs with ZKPs
-4.
-   a) ZKP Measurements
-   b)Plots
-
-- Selective disclosure and unlinkability
-  - RSA/ECDSA: NO SD, NO unlink
-  - RSA/ECDSA with hashing fields: YES SD, NO unlink
-  - BBS+: YES SD, YES unlink
-- BBS+
-  - Selective disclosure examples
-  - Unlinkability proof
-  - check [Cryptographer's feedback](https://github.com/eu-digital-identity-wallet/eudi-doc-architecture-and-reference-framework/issues/200) for more ideas / examples
-- ZKP
-  - Simple proof-range
-  - Combined proof-range with SD
-  - Set membership (diploma example from Imad)
+- Exercise 1 - simple signing
+  - Section 1 - Basic E-ID example using RSA cryptographic scheme
+  - Section 2 - Selective Disclosure using hashing
+  - Discussion - security of this scheme, and introduction to unlinkability
+  - Coding exercise - protect the hashes
+- Exercise 2 - Unlinkability with BBS+
+  - Section 1 - Credential - Setting up a corresponding JSON Schema
+  - Section 2 - Issuer - Setting up and creating a BBS+ signature
+  - Section 3 - Holder - Creating a proof
+  - Section 4 - Verifier - Verifying the proof is valid
+  - Discussion - Unlinkability achieved?
+  - Coding exercise - Simulate an issuer-holder-verifier setup
+- Exercise 3 - Zero Knowledge Proof
+  - Section 1 - Issuer - Setting up and signing a credential
+  - Section 2 - Creating a range proof using LegoGroth16
+  - Section 3 - Creating a range proof using Bulletproofs++
+  - Discussion - are we anonymous and unlinkable now?
+  - Coding exercise - Using the ZKPs
+  - Hard Coding Exercise - Revocation test: add an accumlator using a negative membership check
+- Exercise 4 - ZKP Measurements
+  - Exercise 4a - ZKP Measurements calculations
+  - Exercise 4b - plotting of results
