@@ -12,9 +12,10 @@ It goes through clarifying examples of some of the most important concepts in E-
 The excercises focus on one of the most prominent cryptographic schemes in the E-ID space today **BBS+**.  
 Learn more about BBS+ signature scheme [here](https://identity.foundation/bbs-signature/draft-irtf-cfrg-bbs-signatures.html).
 
-You can find the slides for the hands-on workshop here:
+You can find the slides here:
 
-[Hands-on workshop on E-ID cryptography](./E-ID_slides_v1.0.pdf)
+- [Overview of eID landscape](./E-ID_slides_morning.pdf)
+- [Hands-on workshop on E-ID cryptography](./E-ID_slides_v1.1.pdf)
 
 # Installation
 
