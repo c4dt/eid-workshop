@@ -1,18 +1,14 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.12.0/.schema/devbox.schema.json",
   "packages": [
-    "python311Packages.pip@latest",
-    "nodejs@latest",
-    "python311@latest",
-    "less@latest"
+    "jupyter@latest",
+    "nodejs@latest"
   ],
   "shell": {
     "init_hook": [
-      ". $VENV_DIR/bin/activate",
       "echo Ensuring npm and python packages are installed",
       "npm ci --silent",
-      "pip install -r requirements.txt -q",
-      "npx tslab install"
+      "tslab install"
     ],
     "scripts": {
       "jupyter": [
