@@ -69,6 +69,9 @@ devbox run jupyter
 
 This will take care of the correct python and nodejs version, install the packages, and run
 the jupyter-lab.
+You might need to add `--pure` to the command: `devbox run jupyter --pure`, to make sure no
+other binaries from your computer interfere.
+
 If the page doesn't open automatically on your computer, look at the output of the `devbox run jupyter` command:
 
 ```
@@ -108,3 +111,16 @@ The following exercises are available:
 - Exercise 4 - ZKP Measurements
   - Exercise 4a - ZKP Measurements calculations
   - Exercise 4b - Plotting of results
+
+# Solutions
+
+There are now solutions to the challenges and questions in the exercises.
+You can find them in the `exercise-x-solution` files.
+
+# Feedback
+
+Happy to receive feedback at c4dt-dev@epfl.ch.
+
+# LICENSE
+
+This is licensed under CC BY-SA 4.0 and MIT license.
