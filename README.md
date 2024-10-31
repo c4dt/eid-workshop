@@ -61,6 +61,12 @@ PATH=$PATH:node_modules/.bin jupyter-lab
 ## Alternatively, use Devbox
 
 We support installation using [Devbox](https://www.jetify.com/devbox/docs/quickstart/) which facilitates environment management.  
+To install devbox, run the following command for Linux, MacOS, WSL2:
+
+```bash
+curl -fsSL https://get.jetify.com/devbox | bash
+```
+
 Once devbox is install, you can run the following command to launch jupyter-lab:
 
 ```bash
