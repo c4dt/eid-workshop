@@ -16,6 +16,7 @@ You can find the slides here:
 
 - [Overview of eID landscape](./E-ID_slides_morning.pdf)
 - [Hands-on workshop on E-ID cryptography](./E-ID_slides_v1.1.pdf)
+- [Summary of the privacy challenges](./E-ID_slides_summary.pdf)
 
 # Installation
 
